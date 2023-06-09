@@ -16,7 +16,7 @@ describe('Assertion', () => {
         let expName = "Paul Collings"
         cy.get(".oxd-userdropdown-name").then((x) => {
             let actName = x.text()
-
+            //BDD Styles
             expect(actName).to.equal(expName)
         })
     })
