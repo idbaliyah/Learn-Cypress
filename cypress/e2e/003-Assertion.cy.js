@@ -7,7 +7,7 @@ describe('Assertion', () => {
             .and('contain', 'orangehrm')
     })
 
-    it('Explicit Assertion', () => {
+    it('Explicit Assertion BDD Style', () => {
         cy.visit('https://opensource-demo.orangehrmlive.com/')
         cy.get("[name='username']").type('Admin')
         cy.get("[name='password']").type('admin123')
